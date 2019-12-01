@@ -26,6 +26,7 @@ Một term xuất hiện càng nhiều lần trong một document thì nó càng
 Cách đầu tiên để tính điểm của một docuemnt là tính toán tần suất của term trong document đó:
 
 1: “We will discuss Elasticsearch at the next Big Data group.”
+
 2: “Tuesday the Elasticsearch team will gather to answer questions about Elasticsearch.”
 
 Chúng ta có thể thấy câu đầu tiên có 1 term Elasticsearch, còn câu 2 có 2 terms. Vì thế câu 2 sẽ có điểm cao hơn.
@@ -35,7 +36,9 @@ Chúng ta có thể thấy câu đầu tiên có 1 term Elasticsearch, còn câu
 Nghe có vẻ khá lạ nhưng term sẽ ít quan trọng hơn khi nó xuất hiện nhiều hơn ở tất cả các documents
 
 1: “We use Elasticsearch to power the search for our website.” 
+
 2: “The developers like Elasticsearch so far.”
+
 3: “The scoring of documents is calculated by the scoring formula.”
 
 Với term "Elasticsearch", nó đã xuất hiện trong 2 document nên tần suất tài liệu DF = 2
